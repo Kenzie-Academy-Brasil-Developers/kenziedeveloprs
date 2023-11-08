@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS "projects" (
   FOREIGN KEY ("developerId") REFERENCES "developers"("id") ON DELETE SET NULL
 );
 
+DROP TABLE "developers";
 
 
 
